@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student List"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:textColor="#117299"
+        android:textAlignment="center"
+        android:layout_margin="40px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to extract information"
+        android:textSize="70px"
+        android:textStyle="bold"
+        android:textColor="#1A9911"
+        android:textAlignment="center"
+        android:layout_margin="60px"
+        />
+
+    <Button
+        android:id="@+id/atik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atikur Rahman Atik"
+        android:textSize="60px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="60px"/>
+
+    <Button
+        android:id="@+id/sakib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sadekul Hasna Sakib"
+        android:textSize="60px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="60px"
+        android:backgroundTint="#534D4D"/>
+
+    <Button
+        android:id="@+id/fahim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mazhar Uddin Fahim"
+        android:textSize="60px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="60px"
+        android:backgroundTint="#A7901A"/>
+
+    <Button
+        android:id="@+id/likhon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rafi Al Islam"
+        android:textSize="60px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="60px"
+        android:backgroundTint="#901D1D"/>
+
+    <Button
+        android:id="@+id/zarrin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zarrin Tasnim Khan"
+        android:textSize="60px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="60px"
+        android:backgroundTint="#C5106A"/>
+
+
+</LinearLayout>
